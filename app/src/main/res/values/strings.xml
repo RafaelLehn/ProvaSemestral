@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="name">Character id</string>
+    <string name="Pesquisar">Search</string>
+    <string name="descricao">imagemdegenero</string>
+    <string name="producao">Production for: Rafael Lehn</string>
+</resources>

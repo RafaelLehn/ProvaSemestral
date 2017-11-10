@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="rafaellehnbatista.com.br.provasemestral.Principal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:background="@color/colorAccent"
+        android:id="@+id/etUsername"
+        style="@style/texto"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Pesquisar"
+        android:onClick="pesquisa"
+        android:layout_marginTop="@dimen/distanciatop"
+        style="@style/botao"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNome"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/distanciatop"
+        style="@style/texto"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCabelo"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/distanciatop"
+        style="@style/texto"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPele"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/distanciatop"
+        style="@style/texto"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/im_largura"
+        android:layout_height="@dimen/im_altura"
+        android:layout_marginTop="@dimen/distanciatop"
+        android:id="@+id/ivGenero"
+        android:contentDescription="@string/descricao"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/producao"
+        android:textAlignment="center"
+        style="@style/texto"
+        />
+</LinearLayout>

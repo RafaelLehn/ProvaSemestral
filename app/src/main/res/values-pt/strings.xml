@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="Pesquisar">Pesquisar</string>
+    <string name="name">ID do Personagem</string>
+    <string name="producao">Produzido por: Rafael Lehn</string>
+</resources>
